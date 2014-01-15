@@ -82,7 +82,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 			LineTo(hDC, pt[i].x, pt[i].y);
 		}
 		//есть только одна проблема, значения из синуса округляются, и график строится неверно.
-		//Но я в процессе поиска данного решения
+		//Но я в процессе поиска  решения
 
 		break;
 	case WM_SIZE:
