@@ -81,7 +81,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 			pt[i].y =pt[i-1].y - sin(pt[i-1].x/4)*8;
 			LineTo(hDC, pt[i].x, pt[i].y);
 		}
-		
+		//есть только одна проблема, значения из синуса округляются, и график строится неверно.
+		//Но я в процессе поиска данного решения
 
 		break;
 	case WM_SIZE:
