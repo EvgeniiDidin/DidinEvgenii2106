@@ -1,6 +1,7 @@
 //Exap project.
 //Created by Didin Yevgenii, group 2016
 #include <windows.h>
+#include <math.h>
 HWND hMainWnd;
 HWND hEdit;
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
@@ -64,6 +65,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
+	POINT pt[1000];
 	HDC hDC;
 	PAINTSTRUCT ps;
 	RECT rect;
@@ -71,13 +73,18 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	switch (msg)
 	{
 	case WM_COMMAND:
+		
 		hDC = GetDC(hWnd);
-		POINT pt[5] = { { 100, 100 }, { 200, 100 }, { 200, 200 }, { 100, 200 }, { 100, 100 } };
+		pt[0].x = 0;
+		pt[0].y = 190;
 		MoveToEx(hDC, pt[0].x, pt[0].y, NULL);
-		for (int i = 0; i < 5; i++)
+		for (int i = 1; i < 500; i++)
+		{
+			pt[i].x = pt[i - 1].x + 1;
+			pt[i].y =pt[i-1].y - sin(pt[i-1].x/4)*8;
 			LineTo(hDC, pt[i].x, pt[i].y);
-
-
+		}
+		
 		break;
 	case WM_SIZE:
 
