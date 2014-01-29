@@ -85,6 +85,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 	switch (msg)
 	{
 	case WM_COMMAND:
+<<<<<<< HEAD
 		
 		
 		if (LOWORD(wParam) == 10000){
@@ -116,6 +117,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 			}
 		}
 			break;
+=======
+		hDC = GetDC(hWnd);
+		pt[0].x = 0;
+		pt[0].y = 190;
+		MoveToEx(hDC, pt[0].x, pt[0].y, NULL);
+		for (int i = 1; i < 500; i++)
+		{
+			pt[i].x = pt[i - 1].x + 1;
+			pt[i].y =pt[i-1].y - sin(pt[i-1].x/4)*8;
+			LineTo(hDC, pt[i].x, pt[i].y);
+		}
+		//есть только одна проблема, значения из синуса округляются, и график строится неверно.
+		//Но я в процессе поиска  решения
+
+		break;
+>>>>>>> cb595c78767a4df06a928d5af66f8be8fa2d085b
 	case WM_SIZE:
 
 	case WM_PAINT:

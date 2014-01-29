@@ -1,0 +1,524 @@
+﻿Сборка начата 29.01.2014 18:57:20.
+     1>Проект "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" в узле 2 (целевые объекты Build).
+     1>Сборка с инструментами версии "12.0".
+     1>Целевой объект "_CheckForInvalidConfigurationAndPlatform" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (точка входа):
+       Задача "Error" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationError)' == 'true' ) равно ( '' == 'true' ).
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ( '$(_InvalidConfigurationWarning)' == 'true' ) равно ( '' == 'true' ).
+       Используется задача "Message" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Message"
+         Configuration=Debug
+       Выполнение задачи "Message" завершено.
+       Задача "Message"
+         Platform=Win32
+       Выполнение задачи "Message" завершено.
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) равно ('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\' != '' and !HasTrailingSlash('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) равно ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Задача "Error" пропущена из-за невыполненного условия; выражение ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) равно ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+     1>Сборка целевого объекта "_CheckForInvalidConfigurationAndPlatform" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_PrepareForBuild" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+       Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuild.IncludeFileToTool)'!='') равно (''!='').
+     1>Сборка целевого объекта "_PrepareForBuild" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_PrepareForReferenceResolution" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
+     1>Сборка целевого объекта "_PrepareForReferenceResolution" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('calc.c;main.c;inf2post.c'!='' and 'false'=='true' and '' != 'false').
+     1>Целевой объект "BeforeResolveReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Сборка целевого объекта "BeforeResolveReferences" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "AssignProjectConfiguration" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Используется задача "AssignProjectConfiguration" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "AssignProjectConfiguration"
+       Выполнение задачи "AssignProjectConfiguration" завершено.
+     1>Сборка целевого объекта "AssignProjectConfiguration" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "AssignProjectConfiguration" пропущен. Раньше построение было успешным.
+     1>Целевой объект "_SplitProjectReferencesByFileExistence" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveProjectReferences" зависит от него):
+       Задача "ResolveNonMSBuildProjectOutput" пропущена из-за невыполненного условия; выражение ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') равно ('true'=='true' and ''!='').
+     1>Сборка целевого объекта "_SplitProjectReferencesByFileExistence" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_RemoveNameMetadataFromProjectReferenceItems" пропущен из-за невыполненного условия; выражение ('@(ProjectReference)'!='') равно (''!='').
+     1>Целевой объект "ResolveProjectReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' != '10.0' and '' != '').
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '12.0' == '10.0' and '' != '').
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') равно ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') равно ('' != '' and '' != '').
+     1>Сборка целевого объекта "ResolveProjectReferences" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "FindInvalidProjectReferences" пропущен из-за невыполненного условия; выражение ('$(FindInvalidProjectReferences)' == 'true') равно ('' == 'true').
+       Целевой объект "ResolveNativeReferences" пропущен из-за невыполненного условия; выражение ('@(NativeReference)'!='') равно (''!='').
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Раньше построение было успешным.
+     1>Целевой объект "GetFrameworkPaths" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.NetFramework.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+     1>Сборка целевого объекта "GetFrameworkPaths" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "GetWinFXPath" пропущен из-за невыполненного условия; выражение (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) равно (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Целевой объект "GetReferenceAssemblyPaths" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "GetReferenceAssemblyPaths" пропущена из-за невыполненного условия; выражение ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) равно ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Сборка целевого объекта "GetReferenceAssemblyPaths" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "SetBuildDefaultEnvironmentVariables" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Используется задача "SetEnv" из сборки "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Задача "SetEnv"
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\12.0\bin\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Program Files\Java\jdk1.7.0_25\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\lib;
+       Выполнение задачи "SetEnv" завершено.
+       Задача "SetEnv"
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;C:\Program Files (x86)\Windows Kits\8.1\Include\shared;C:\Program Files (x86)\Windows Kits\8.1\Include\winrt;;
+       Выполнение задачи "SetEnv" завершено.
+     1>Сборка целевого объекта "SetBuildDefaultEnvironmentVariables" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '') равно ('' != '').
+     1>Целевой объект "GetResolvedWinMD" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+     1>Сборка целевого объекта "GetResolvedWinMD" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PlatformPrepareForBuild" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(_Error64bitToolsNotInstalled)' == 'true') равно ('' == 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(ConfigurationPlatformExists)' != 'true') равно ('true' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(ToolsetTargetsFound)' != 'true') равно ('true' != 'true').
+     1>Сборка целевого объекта "PlatformPrepareForBuild" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "GetFrameworkPaths" пропущен. Раньше построение было успешным.
+       Целевой объект "GetReferenceAssemblyPaths" пропущен. Раньше построение было успешным.
+     1>Целевой объект "SetCABuildNativeEnvironmentVariables" в файле "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareForBuild" зависит от него):
+       Инициализация фабрики задач "CodeTaskFactory" из сборки "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Build.Tasks.v12.0.dll".
+       Используется задача "SetEnvironmentVariable" из фабрики заданий "Code Task Factory".
+       Задача "SetEnvironmentVariable"
+       Выполнение задачи "SetEnvironmentVariable" завершено.
+     1>Сборка целевого объекта "SetCABuildNativeEnvironmentVariables" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PrepareForBuild" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') равно ('' != 'true' and 'true' != 'true').
+       Используется задача "MakeDir" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') равно (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) равно (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') равно (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true' and 'v120'=='v90').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') равно ('C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\'=='' and '' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') равно ('C:\Program Files (x86)\Windows Kits\8.1\'=='' and '' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(IntDirTrailingSlashWarning)'=='true') равно (''=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(OutDirTrailingSlashWarning)'=='true') равно (''=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') равно ('' != '' and ''!='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true') равно ('' == 'true' and '' != 'true' and '' != 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') равно ('' != 'true' and '' == 'true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) равно ('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "PrepareForBuild" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_PrepareForReferenceResolution" пропущен. Раньше построение было успешным.
+       Целевой объект "ComputeCrtSDKReference" пропущен из-за невыполненного условия; выражение ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') равно ('calc.c;main.c;inf2post.c'!='' and 'false'=='true' and '' != 'false').
+     1>Целевой объект "GetInstalledSDKLocations" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveSDKReferences" зависит от него):
+       Задача "GetInstalledSDKLocations" пропущена из-за невыполненного условия; выражение ('@(SDKReference)' != '') равно ('' != '').
+     1>Сборка целевого объекта "GetInstalledSDKLocations" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ResolveSDKReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "ResolveSDKReference" пропущена из-за невыполненного условия; выражение ('@(SDKReference)'!='') равно (''!='').
+     1>Сборка целевого объекта "ResolveSDKReferences" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ResolveSDKReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ExpandSDKReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveAssemblyReferences" зависит от него):
+       Задача "GetSDKReferenceFiles" пропущена из-за невыполненного условия; выражение ('@(ResolvedSDKReference)'!='') равно (''!='').
+     1>Сборка целевого объекта "ExpandSDKReferences" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ResolveAssemblyReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+       Задача "ResolveAssemblyReference" пропущена из-за невыполненного условия; выражение ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') равно (''!='' or ''!='' or '' != '').
+     1>Сборка целевого объекта "ResolveAssemblyReferences" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "GenerateBindingRedirects" пропущен из-за невыполненного условия; выражение ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') равно ('' == 'true' and 'true' == 'true').
+       Целевой объект "ResolveComReferences" пропущен из-за невыполненного условия; выражение ('@(COMReference)'!='' or '@(COMFileReference)'!='') равно (''!='' or ''!='').
+     1>Целевой объект "AfterResolveReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ResolveReferences" зависит от него):
+     1>Сборка целевого объекта "AfterResolveReferences" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ImplicitlyExpandDesignTimeFacades" пропущен из-за невыполненного условия; выражение ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') равно ('' == 'true').
+       Целевой объект "ResolveTestReferences" пропущен из-за невыполненного условия; выражение ('@(Shadow)'!='') равно (''!='').
+     1>Целевой объект "ResolveReferences" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "ResolveReferences" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+     1>Целевой объект "InitializeBuildStatus" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+       Используется задача "ReadLinesFromFile" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "ReadLinesFromFile"
+       Выполнение задачи "ReadLinesFromFile" завершено.
+       Используется задача "WriteLinesToFile" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "WriteLinesToFile"
+       Выполнение задачи "WriteLinesToFile" завершено.
+       Используется задача "Touch" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Touch"
+         Создание "Debug\ExamProject_1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       Выполнение задачи "Touch" завершено.
+     1>Сборка целевого объекта "InitializeBuildStatus" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "AssignProjectConfiguration" пропущен. Раньше построение было успешным.
+       Целевой объект "_SplitProjectReferencesByFileExistence" пропущен. Раньше построение было успешным.
+     1>Целевой объект "BuildGenerateSourcesTraverse" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Сборка целевого объекта "BuildGenerateSourcesTraverse" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "ResolveReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "BeforeBuildGenerateSources" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "BeforeBuildGenerateSources" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PreBuildEvent" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') равно ('' != '' and '' != '').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PreBuildEvent.Command)' != '') равно ('' != '').
+     1>Сборка целевого объекта "PreBuildEvent" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "CustomBuild" пропущен из-за невыполненного условия; выражение ('@(CustomBuild)' != '') равно ('' != '').
+       Целевой объект "FxCompile" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+       Целевой объект "Xsd" пропущен из-за невыполненного условия; выражение ('@(Xsd)' != '') равно ('' != '').
+     1>Целевой объект "_Xsd" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "_Xsd" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForMidl" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Midl" зависит от него):
+       Задача "Makedir"
+       Выполнение задачи "Makedir" завершено.
+     1>Сборка целевого объекта "MakeDirsForMidl" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "Midl" пропущен из-за невыполненного условия; выражение ('@(Midl)' != '') равно ('' != '').
+       Целевой объект "CustomBuild" пропущен из-за невыполненного условия; выражение ('@(CustomBuild)' != '') равно ('' != '').
+       Целевой объект "FxCompile" пропущен из-за невыполненного условия; выражение ('@(FxCompile)' != '') равно ('' != '').
+     1>Целевой объект "ComputeMIDLGeneratedCompileInputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Сборка целевого объекта "ComputeMIDLGeneratedCompileInputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "AfterMidl" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Midl" зависит от него):
+     1>Сборка целевого объекта "AfterMidl" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_Midl" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "_Midl" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "AfterBuildGenerateSources" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "AfterBuildGenerateSources" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "AfterBuildGenerateSourcesEvent" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildGenerateSourcesAction" зависит от него):
+     1>Сборка целевого объекта "AfterBuildGenerateSourcesEvent" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_BuildGenerateSourcesAction" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildGenerateSources" зависит от него):
+     1>Сборка целевого объекта "_BuildGenerateSourcesAction" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "BuildGenerateSources" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "BuildGenerateSources" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "AssignProjectConfiguration" пропущен. Раньше построение было успешным.
+       Целевой объект "_SplitProjectReferencesByFileExistence" пропущен. Раньше построение было успешным.
+     1>Целевой объект "BuildCompileTraverse" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildCompile" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Сборка целевого объекта "BuildCompileTraverse" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "ResolveReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "BeforeClCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "BeforeClCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ComputeCLInputPDBName" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "ComputeCLInputPDBName" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ResolveReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ComputeReferenceCLInput" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') равно ((''!='') and '' != 'true').
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(_REFERENCE_DEBUG)'=='true') равно (''=='true').
+     1>Сборка целевого объекта "ComputeReferenceCLInput" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "WarnCompileDuplicatedFilename" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('calc.c' != 'calc.c' and 'Debug\' == 'Debug\').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('main.c' != 'main.c' and 'Debug\' == 'Debug\').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') равно ('inf2post.c' != 'inf2post.c' and 'Debug\' == 'Debug\').
+     1>Сборка целевого объекта "WarnCompileDuplicatedFilename" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForCl" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForCl" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "SetBuildDefaultEnvironmentVariables" пропущен. Раньше построение было успешным.
+       Целевой объект "SetUserMacroEnvironmentVariables" пропущен из-за невыполненного условия; выражение ('@(BuildMacro)' != '') равно ('' != '').
+     1>Целевой объект "_SelectedFiles" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "SelectClCompile" зависит от него):
+     1>Сборка целевого объекта "_SelectedFiles" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Раньше построение было успешным.
+       Целевой объект "ComputeCLInputPDBName" пропущен. Раньше построение было успешным.
+       Целевой объект "ComputeReferenceCLInput" пропущен. Раньше построение было успешным.
+       Целевой объект "WarnCompileDuplicatedFilename" пропущен. Раньше построение было успешным.
+       Целевой объект "_SelectedFiles" пропущен. Раньше построение было успешным.
+     1>Целевой объект "SelectCustomBuild" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "SelectClCompile" зависит от него):
+     1>Сборка целевого объекта "SelectCustomBuild" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "SelectClCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ClCompile" зависит от него):
+     1>Сборка целевого объекта "SelectClCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропущен из-за невыполненного условия; выражение ('$(GenerateTargetFrameworkAttribute)' == 'true') равно ('false' == 'true').
+       Целевой объект "ManagedIncrementalBuildPreProcessDependencyGraph" пропущен из-за невыполненного условия; выражение ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') равно ('calc.c;main.c;inf2post.c' != '' and 'false' == 'True').
+     1>Целевой объект "ClCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+       Задача "Delete" пропущена из-за невыполненного условия; выражение ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) равно ('EditAndContinue' != '' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc120.pdb' != '' and !Exists(Debug\vc120.pdb)).
+       Задача "CL" пропущена из-за невыполненного условия; выражение ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') равно ('' == 'Create' and ''!='true' and '' == '').
+       Используется задача "CL" из сборки "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Задача "CL"
+         Журналы отслеживания чтения:
+         	Debug\ExamProject_1.tlog\cl.read.1.tlog
+         Выходные данные для C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\CALC.C|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\INF2POST.C|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\MAIN.C:
+         	C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\CALC.OBJ
+         	C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\MAIN.OBJ
+         	C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ
+         Будет выполнена компиляция inf2post.c, поскольку C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\inf2post.c изменено в 29.01.2014 18:57:19.
+         Переменные среды переданы инструменту:
+           VS_UNICODE_OUTPUT=1028
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt inf2post.c
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\Debug\ExamProject_1.tlog" /r "C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\INF2POST.C" /b MSBuildConsole_CancelEvent9eca645d9744455ca1ecca848b06137b  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe"  /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt inf2post.c
+         inf2post.c
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(162): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(170): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(181): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(192): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(203): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\евгений\documents\visual studio 2013\projects\examproject_1\examproject_1\inf2post.c(232): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+       Выполнение задачи "CL" завершено.
+     1>Сборка целевого объекта "ClCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ManagedIncrementalBuildPostProcessDependencyGraph" пропущен из-за невыполненного условия; выражение ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') равно ('calc.c;main.c;inf2post.c' != '' and 'false' == 'True').
+     1>Целевой объект "AfterClCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ClCompile" зависит от него):
+     1>Сборка целевого объекта "AfterClCompile" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_ClCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Сборка целевого объекта "_ClCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_ResGen" пропущен из-за невыполненного условия; выражение ('@(EmbeddedResource)'!='') равно (''!='').
+     1>Целевой объект "BeforeResourceCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+     1>Сборка целевого объекта "BeforeResourceCompile" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForResourceCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForResourceCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ResourceCompile" пропущен из-за невыполненного условия; выражение ('@(ResourceCompile)' != '') равно ('' != '').
+     1>Целевой объект "AfterResourceCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_ResourceCompile" зависит от него):
+     1>Сборка целевого объекта "AfterResourceCompile" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_ResourceCompile" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Сборка целевого объекта "_ResourceCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_ImpLib" пропущен из-за невыполненного условия; выражение ('$(ImpLibCompiled)' == 'true') равно ('' == 'true').
+       Целевой объект "_Lib" пропущен из-за невыполненного условия; выражение ('$(LibCompiled)' == 'true') равно ('' == 'true').
+     1>Целевой объект "AfterBuildCompileEvent" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildCompileAction" зависит от него):
+     1>Сборка целевого объекта "AfterBuildCompileEvent" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_BuildCompileAction" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildCompile" зависит от него):
+     1>Сборка целевого объекта "_BuildCompileAction" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "BuildCompile" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "BuildCompile" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "AssignProjectConfiguration" пропущен. Раньше построение было успешным.
+       Целевой объект "_SplitProjectReferencesByFileExistence" пропущен. Раньше построение было успешным.
+     1>Целевой объект "BuildLinkTraverse" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildLink" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') равно ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Сборка целевого объекта "BuildLinkTraverse" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "ResolveReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ComputeLegacyManifestEmbedding" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') равно ('' == 'true' and '' == 'true').
+     1>Сборка целевого объекта "ComputeLegacyManifestEmbedding" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "BeforeLink" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "BeforeLink" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeRCOutputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ComputeRCGeneratedLinkInputs" зависит от него):
+     1>Сборка целевого объекта "ComputeRCOutputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeRCGeneratedLinkInputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "ComputeRCGeneratedLinkInputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeManifestGeneratedLinkerInputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "ComputeManifestGeneratedLinkerInputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeCustomBuildOutput" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "CreateItem" пропущена из-за невыполненного условия; выражение ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') равно (''!='').
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "ComputeCustomBuildOutput" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeMIDLGeneratedCompileInputs" пропущен. Раньше построение было успешным.
+       Целевой объект "ComputeCLInputPDBName" пропущен. Раньше построение было успешным.
+       Целевой объект "ComputeReferenceCLInput" пропущен. Раньше построение было успешным.
+       Целевой объект "WarnCompileDuplicatedFilename" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ComputeCLOutputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "ComputeCLGeneratedLinkInputs" зависит от него):
+     1>Сборка целевого объекта "ComputeCLOutputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeCLGeneratedLinkInputs" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "ComputeCLGeneratedLinkInputs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeLinkInputsFromProject" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "ComputeLinkInputsFromProject" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeReferenceLinkInputs" пропущен из-за невыполненного условия; выражение (@(ProjectReference) != '') равно ( != '').
+     1>Целевой объект "ComputeManifestInputsTargets" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "ComputeManifestInputsTargets" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ManifestResourceCompile" пропущен из-за невыполненного условия; выражение ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') равно ('LINK' == 'LINK' and '' != '').
+       Целевой объект "AssignWinFXEmbeddedResource" пропущен из-за невыполненного условия; выражение ('@(WinFXEmbeddedResource)' != '') равно ('' != '').
+     1>Целевой объект "AssignTargetPaths" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+       Используется задача "AssignTargetPath" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+       Задача "AssignTargetPath" пропущена из-за невыполненного условия; выражение ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') равно (''=='' and ''=='.manifest').
+     1>Сборка целевого объекта "AssignTargetPaths" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "AssignTargetPaths" пропущен. Раньше построение было успешным.
+     1>Целевой объект "SplitResourcesByCulture" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ResxWithNoCulture)'!='') равно (''!='').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ResxWithCulture)'!='') равно (''!='').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(NonResxWithCulture)'!='') равно (''!='').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(NonResxWithNoCulture)'!='') равно (''!='').
+       Используется задача "AssignCulture" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "AssignCulture"
+       Выполнение задачи "AssignCulture" завершено.
+     1>Сборка целевого объекта "SplitResourcesByCulture" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "CreateManifestResourceNames" пропущен из-за невыполненного условия; выражение ('@(EmbeddedResource)' != '') равно ('' != '').
+     1>Целевой объект "CreateCustomManifestResourceNames" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareResourceNames" зависит от него):
+     1>Сборка целевого объекта "CreateCustomManifestResourceNames" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PrepareResourceNames" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "PrepareResourceNames" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForLink" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForLink" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "DoLinkOutputFilesMatch" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' == '') равно ('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe' == '').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') равно ('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe' != '' and 'C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe' != 'C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') равно ('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe' != '' and '.exe' != '' and '.exe' != '.exe').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') равно ('C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe' != '' and 'ExamProject_1' != '' and 'ExamProject_1' != 'ExamProject_1').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) равно ('' != '' and ('Windows' == '' or 'Windows' == 'NotSet')).
+     1>Сборка целевого объекта "DoLinkOutputFilesMatch" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PreLinkEvent" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') равно ('' != '' and '' != '').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PreLinkEvent.Command)' != '') равно ('' != '').
+     1>Сборка целевого объекта "PreLinkEvent" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeLinkSwitches" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Link" зависит от него):
+     1>Сборка целевого объекта "ComputeLinkSwitches" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "Link" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Используется задача "Link" из сборки "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Build.CppTasks.Common.dll".
+       Задача "Link"
+         Журналы отслеживания записи:
+         	Debug\ExamProject_1.tlog\link.write.1.tlog
+         Журналы отслеживания чтения:
+         	Debug\ExamProject_1.tlog\link.read.1.tlog
+         Выходные данные для C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\CALC.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\MAIN.OBJ:
+         	C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\DEBUG\EXAMPROJECT_1.ILK
+         	C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\DEBUG\EXAMPROJECT_1.EXE
+         	C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\DEBUG\EXAMPROJECT_1.PDB
+         Входные данные для C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\CALC.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\MAIN.OBJ:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WINV6.3\UM\X86\ODBCCP32.LIB
+         	C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\CALC.OBJ
+         	C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\MAIN.OBJ
+         	C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\LIB\MSVCRTD.LIB
+         	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 12.0\VC\LIB\OLDNAMES.LIB
+         Требуется компиляция исходного кода: входные данные C:\USERS\Евгений\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ обновились по сравнению с выходными C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\DEBUG\EXAMPROJECT_1.PDB.
+         Переменные среды переданы инструменту:
+           VS_UNICODE_OUTPUT=944
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.lib" /MACHINE:X86 Debug\calc.obj
+         Debug\main.obj
+         Debug\inf2post.obj
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\12.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\12.0\bin\FileTracker.dll" /i "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\Debug\ExamProject_1.tlog" /r "C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\CALC.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\INF2POST.OBJ|C:\USERS\ЕВГЕНИЙ\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\EXAMPROJECT_1\EXAMPROJECT_1\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEvent541374583c6741b9a160e63f2afc0b8a  /c "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.lib" /MACHINE:X86 Debug\calc.obj
+         Debug\main.obj
+         Debug\inf2post.obj
+       Выполнение задачи "Link" завершено.
+       Задача "Message"
+         ExamProject_1.vcxproj -> C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\Debug\ExamProject_1.exe
+       Выполнение задачи "Message" завершено.
+     1>Сборка целевого объекта "Link" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "MetaGenInputsOutputs" пропущен из-за невыполненного условия; выражение ('$(EnableManagedIncrementalBuild)' == 'True') равно ('false' == 'True').
+       Целевой объект "ComputeMetaGenInputs" пропущен из-за невыполненного условия; выражение ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') равно ('false'!='' and 'false'!='false').
+       Целевой объект "MetaGen" пропущен из-за невыполненного условия; выражение ('@(MetaGen)' != '') равно ('' != '').
+     1>Целевой объект "ComputeLinkImportLibraryOutputsForClean" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+       Задача "WriteLinesToFile" пропущена из-за невыполненного условия; выражение ('@(_LinkSecondaryOutput)' != '') равно ('' != '').
+     1>Сборка целевого объекта "ComputeLinkImportLibraryOutputsForClean" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "AfterLink" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_Link" зависит от него):
+     1>Сборка целевого объекта "AfterLink" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_Link" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_Link" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_ALink" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_ALink" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeLegacyManifestEmbedding" пропущен. Раньше построение было успешным.
+     1>Целевой объект "_Manifest" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+       Задача "CallTarget" пропущена из-за невыполненного условия; выражение ('$(LegacyManifestEmbedding)' == 'true') равно ('' == 'true').
+     1>Сборка целевого объекта "_Manifest" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "RegisterOutput" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') равно ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') равно ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') равно ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') равно ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+       Задача "VCMessage" пропущена из-за невыполненного условия; выражение ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') равно ('' != '' and '' != '0').
+     1>Сборка целевого объекта "RegisterOutput" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "PrepareForBuild" пропущен. Раньше построение было успешным.
+       Целевой объект "ResolveReferences" пропущен. Раньше построение было успешным.
+     1>Целевой объект "ResolvedXDCMake" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_XdcMake" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') равно ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Сборка целевого объекта "ResolvedXDCMake" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeCLCompileGeneratedXDCFiles" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_XdcMake" зависит от него):
+     1>Сборка целевого объекта "ComputeCLCompileGeneratedXDCFiles" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForXdcMake" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_XdcMake" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForXdcMake" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "XdcMake" пропущен из-за невыполненного условия; выражение ('@(XdcMake)' != '') равно ('' != '').
+     1>Целевой объект "_XdcMake" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_XdcMake" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "ComputeCLCompileGeneratedSbrFiles" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BscMake" зависит от него):
+     1>Сборка целевого объекта "ComputeCLCompileGeneratedSbrFiles" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "MakeDirsForBscMake" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BscMake" зависит от него):
+       Задача "MakeDir"
+       Выполнение задачи "MakeDir" завершено.
+     1>Сборка целевого объекта "MakeDirsForBscMake" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "BscMake" пропущен из-за невыполненного условия; выражение ('@(BscMake)' != '') равно ('' != '').
+       Целевой объект "CustomBuildStep" пропущен из-за невыполненного условия; выражение ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') равно ('' != '' and ''=='').
+     1>Целевой объект "_BscMake" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_BscMake" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "RunMergeNativeCodeAnalysis" пропущен из-за невыполненного условия; выражение ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') равно ('C++'=='C++' and ''=='true').
+       Целевой объект "RunNativeCodeAnalysis" пропущен из-за невыполненного условия; выражение ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') равно ('C++'=='C++' and ''=='true').
+     1>Целевой объект "_GenerateSatelliteAssemblyInputs" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "CreateSatelliteAssemblies" зависит от него):
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') равно (''!='' and ''=='').
+       Задача "Warning" пропущена из-за невыполненного условия; выражение ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') равно (''!='' and ''=='').
+     1>Сборка целевого объекта "_GenerateSatelliteAssemblyInputs" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeIntermediateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') равно ( != '').
+       Целевой объект "GenerateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение ('@(_SatelliteAssemblyResourceInputs)' != '') равно ('' != '').
+     1>Целевой объект "CreateSatelliteAssemblies" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "CreateSatelliteAssemblies" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_Appverifier" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_Appverifier" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_Deploy" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "_Deploy" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "ComputeIntermediateSatelliteAssemblies" пропущен из-за невыполненного условия; выражение (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') равно ( != '').
+       Целевой объект "_CopyFilesMarkedCopyLocal" пропущен из-за невыполненного условия; выражение ('@(ReferenceCopyLocalPaths)' != '') равно ('' != '').
+       Целевой объект "AssignTargetPaths" пропущен. Раньше построение было успешным.
+       Целевой объект "_SplitProjectReferencesByFileExistence" пропущен. Раньше построение было успешным.
+     1>Целевой объект "GetCopyToOutputDirectoryXamlAppDefs" в файле "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "GetCopyToOutputDirectoryItems" зависит от него):
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+     1>Сборка целевого объекта "GetCopyToOutputDirectoryXamlAppDefs" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "GetCopyToOutputDirectoryItems" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_CopySourceItemsToOutputDirectory" зависит от него):
+       Задача "MSBuild" пропущена из-за невыполненного условия; выражение ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') равно ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Задача "AssignTargetPath"
+       Выполнение задачи "AssignTargetPath" завершено.
+     1>Сборка целевого объекта "GetCopyToOutputDirectoryItems" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_CopyOutOfDateSourceItemsToOutputDirectory" пропущен из-за невыполненного условия; выражение ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) равно ( '' != '' ).
+       Целевой объект "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" пропущен из-за невыполненного условия; выражение ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) равно ( '' != '' ).
+     1>Целевой объект "_CopySourceItemsToOutputDirectory" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+     1>Сборка целевого объекта "_CopySourceItemsToOutputDirectory" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_CopyAppConfigFile" пропущен из-за невыполненного условия; выражение ( '@(AppConfigWithTargetPath)' != '' ) равно ( '' != '' ).
+       Целевой объект "_CopyManifestFiles" пропущен из-за невыполненного условия; выражение ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) равно ( ''=='true' or ''=='true' ).
+     1>Целевой объект "_CheckForCompileOutputs" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "CopyFilesToOutputDirectory" зависит от него):
+     1>Сборка целевого объекта "_CheckForCompileOutputs" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "_SGenCheckForOutputs" пропущен из-за невыполненного условия; выражение ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) равно ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Целевой объект "CopyFilesToOutputDirectory" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "PrepareForRun" зависит от него):
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') равно ('true' == 'true' and 'true' != 'true').
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') равно ('true' == 'true' and 'true'!='true').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('@(AddModules)' != '') равно ('' != '').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(_SGenDllCreated)'=='true') равно ('false'=='true').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') равно ('false'=='true' and '' != 'true' and 'true'=='true').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(_DocumentationFileProduced)'=='true') равно ('false'=='true').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') равно ('' != '').
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) равно ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Задача "Copy" пропущена из-за невыполненного условия; выражение ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') равно ('' != 'true' and '' != '').
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') равно ('' != 'true' and '' != '').
+     1>Сборка целевого объекта "CopyFilesToOutputDirectory" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "PrepareForRun" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+     1>Сборка целевого объекта "PrepareForRun" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "CustomBuildStep" пропущен из-за невыполненного условия; выражение ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') равно ('' != '' and ''=='').
+     1>Целевой объект "PostBuildEvent" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "_BuildLinkAction" зависит от него):
+       Задача "Message" пропущена из-за невыполненного условия; выражение ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') равно ('' != '' and '' != '').
+       Задача "Exec" пропущена из-за невыполненного условия; выражение ('%(PostBuildEvent.Command)' != '') равно ('' != '').
+     1>Сборка целевого объекта "PostBuildEvent" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "_BuildLinkAction" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "BuildLink" зависит от него):
+     1>Сборка целевого объекта "_BuildLinkAction" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "BuildLink" в файле "C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "BuildLink" в проекте "ExamProject_1.vcxproj" завершена.
+       Целевой объект "CreateTfsBuildInfoResource" пропущен из-за невыполненного условия; выражение ( $(AddBuildInfoToAssembly)==true ) равно ( false==true ).
+     1>Целевой объект "AfterBuild" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+     1>Сборка целевого объекта "AfterBuild" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "FinalizeBuildStatus" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (целевой объект "Build" зависит от него):
+       Используется задача "Delete" из сборки "Microsoft.Build.Tasks.v12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Задача "Delete"
+         Файл "Debug\ExamProject_1.tlog\unsuccessfulbuild" удаляется.
+       Выполнение задачи "Delete" завершено.
+       Задача "Touch"
+         Обращение к "Debug\ExamProject_1.tlog\ExamProject_1.lastbuildstate".
+       Выполнение задачи "Touch" завершено.
+     1>Сборка целевого объекта "FinalizeBuildStatus" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Целевой объект "Build" в файле "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.BuildSteps.Targets" из проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" (точка входа):
+     1>Сборка целевого объекта "Build" в проекте "ExamProject_1.vcxproj" завершена.
+     1>Сборка проекта "C:\Users\Евгений\Documents\Visual Studio 2013\Projects\ExamProject_1\ExamProject_1\ExamProject_1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.05

@@ -156,7 +156,7 @@ char pop(char *_stack, int _ptr)
 	return _stack[--_ptr];
 }
 
-void First_Transformation(char* _string,char* out_string)			//transforms sin(5),cos(6),tan(7),ctg(8)
+void First_Transformation(char* _string,char* out_string)			//transforms sin(s),cos(c),tan(t),ctg(k)
 {
 	int i = 0;
 	while (i<strlen(_string))
@@ -212,7 +212,7 @@ void First_Transformation(char* _string,char* out_string)			//transforms sin(5),
 	}
 	
 }
-void Get_Double_Array(char _postfix[][100], double* real_numb_array)
+void Get_Double_Array(char _postfix[][100], double* real_numb_array)		//i make double array of const elements in function
 {
 	int z = 0;
 	int j = 0;
